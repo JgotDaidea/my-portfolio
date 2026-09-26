@@ -2,17 +2,18 @@
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
-  color: var(--accent);
-  background: var(--accent-bg);
+  color: #2563eb;
+  background: #eff6ff;
   border: 2px solid transparent;
   transition: border-color 0.3s;
   margin-bottom: 24px;
 
   &:hover {
-    border-color: var(--accent-border);
+    border-color: #3b82f6;
   }
+
   &:focus-visible {
-    outline: 2px solid var(--accent);
+    outline: 2px solid #2563eb;
     outline-offset: 2px;
   }
 }
@@ -72,12 +73,13 @@
 
 #next-steps {
   display: flex;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid lightblue;
   text-align: left;
 
   & > div {
     flex: 1 1 0;
     padding: 32px;
+
     @media (max-width: 1024px) {
       padding: 24px 20px;
     }
@@ -96,11 +98,11 @@
 }
 
 #docs {
-  border-right: 1px solid var(--border);
+  border-right: 1px solid lightblue;
 
   @media (max-width: 1024px) {
     border-right: none;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1px solid lightblue;
   }
 }
 
@@ -116,10 +118,10 @@
   }
 
   a {
-    color: var(--text-h);
+    color: #111827;
     font-size: 16px;
     border-radius: 6px;
-    background: var(--social-bg);
+    background: lightblue;
     display: flex;
     padding: 6px 12px;
     align-items: center;
@@ -128,8 +130,9 @@
     transition: box-shadow 0.3s;
 
     &:hover {
-      box-shadow: var(--shadow);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
     }
+
     .button-icon {
       height: 18px;
       width: 18px;
@@ -155,7 +158,8 @@
 
 #spacer {
   height: 88px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid #e5e7eb;
+
   @media (max-width: 1024px) {
     height: 48px;
   }
@@ -175,10 +179,12 @@
 
   &::before {
     left: 0;
-    border-left-color: var(--border);
+    border-left-color: #e5e7eb;
   }
+
   &::after {
     right: 0;
-    border-right-color: var(--border);
+    border-right-color: #e5e7eb;
   }
 }
+

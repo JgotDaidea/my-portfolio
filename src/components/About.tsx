@@ -5,10 +5,9 @@ function About() {
                 <h2 className="text-3xl font-bold">About Me</h2>
 
                 <p className="mt-6 leading-8 text-gray-600">
-            I am an aspiring software developer learning how to build
-            modern web applications using React and JavaScript. 
-            I love turning ideas into reality. I believe technology should make life easier 
-            and I'm here to make that happen one line of code at a time!               
+            I'm a Junior software developer and aspiring tech entrepreneur with a heart for innovation 
+            and a mission to make tech accessible, local and meaningful. 
+            I am focused on building mobile and web apps that solve real-world problems              
                 </p>
             </div>
         </section>
